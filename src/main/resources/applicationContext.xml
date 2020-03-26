@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+<!--声明bean对象，id是唯一标志，class：bean对象的全路径 -->
+
+<bean id="hello" scope="prototype" class="com.fei.pojo.Hello"></bean>
+<bean id="user" class="com.fei.pojo.User">
+    <property name="name" value="邓飞文"></property>
+    <property name="age" value="20"></property>
+</bean>
+
+
+</beans>
