@@ -25,6 +25,7 @@ public abstract class Duck {
             flyBehavier.fly();
         }
     }
+
     public void eat(){
         if (eattingBehaveri!=null){
             eattingBehaveri.eat();
